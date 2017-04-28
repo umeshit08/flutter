@@ -8,9 +8,12 @@
 </head>
 <body>
 <%= render'/layouts/nav'%>
-<%= yield %>
+
 <div class="container">
-  <p>Example page </p>
+  
+<span class="notice"><%= notice %></span>
+<span class="alert"><%= alert %></span>
+<%= yield %>
 </div>
 </body>
 </html>
